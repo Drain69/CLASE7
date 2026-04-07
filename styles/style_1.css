@@ -1,0 +1,23 @@
+body{
+    background-color: gainsboro;
+}
+.dad{
+    background-color:cornsilk ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 6fr 1fr;
+    grid-template-areas: "titles"
+                         "body"
+                         "footer";
+    grid-gap: 5px;
+
+}
+.dad .titles{
+    background-color: aliceblue;
+}
+.dad .body{
+    background-color: azure;
+}
+.dad .footer{
+    background-color: ghostwhite;
+}
